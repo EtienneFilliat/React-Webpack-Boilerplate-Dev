@@ -4,7 +4,6 @@ module.exports = {
   context: path.join(__dirname, 'src'),
   entry: [
     './app.js',
-    // './less/base.less',
   ],
   output: {
     path: path.join(__dirname, 'www'),
